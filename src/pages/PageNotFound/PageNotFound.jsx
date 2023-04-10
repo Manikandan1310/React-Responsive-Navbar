@@ -1,7 +1,12 @@
+import { Center } from "@mantine/core";
 import React from "react";
 
 const PageNotFound = () => {
-  return <div>PageNotFound</div>;
+  return (
+    <Center>
+      <div>PageNotFound</div>
+    </Center>
+  );
 };
 
 export default PageNotFound;

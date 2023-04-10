@@ -1,7 +1,12 @@
+import { Center } from "@mantine/core";
 import React from "react";
 
 const Experience = () => {
-  return <div>Experience</div>;
+  return (
+    <Center>
+      <div>Experience</div>
+    </Center>
+  );
 };
 
 export default Experience;
